@@ -1,0 +1,14 @@
+Collection of my DMX512 related projects, mostly various
+USB-DMX interfaces in varying levels of miniaturization.
+
+interface/v1:
+  My first Eagle-drawn DMX interface; all interfaces before
+  it were made on breadboards. Features the famous FTDI FT232RL
+  for USB-Serial conversion and a DS26C31 line driver.
+  This is a "dumb" interface where the host needs to take
+  care of the DMX protocol.
+
+interface/v2:
+  Still a dumb interface, but this one fits into a standard-
+  issue XLR plug. Uses FT232RQ (same chip, smaller package)
+  and a MAX485.
